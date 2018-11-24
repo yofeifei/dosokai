@@ -42,7 +42,7 @@ box-shadow: none;
 margin-top: 10px;
 background-color:ghostwhite;
 width: 100%;
-    
+box-sizing: border-box;    
 }
 
 .title{
