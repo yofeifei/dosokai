@@ -2,7 +2,7 @@ html {
     font-family: Avenir Next;
     color:  black;
     text-align: center;
-    background-image: 
+    background-image: -moz-element()
      }
 
 .wrapper {
@@ -14,29 +14,28 @@ header{
 }
 
 .header-logo{
-    font-size: 8px;
     color: black;
     background-color:white; 
 }
 .header-logo h1{
-    font-size: 8px;
+    font-size: 23px;
 }
 
 select{
     width: 100%;
-    text-align: center;
-
+    height: 36px;
+    font-size: 15px;
 }
 
 .form{
-border: 0px;
+border: 2px;
+border-color: black;
 height: 36px;
 display: inline-block;
 border-radius: 4px;
 padding: 0px 18px;
 font-size: 15px;
 font-weight: bold;
-outline: none;
 box-shadow: none;
 margin-top: 10px;
 background-color:ghostwhite;
@@ -45,13 +44,13 @@ box-sizing: border-box;
 }
 
 .title{
-    font-size: 8px;
+    font-size: 15px;
 }
 p{
-    font-size:8px;
+    font-size:15px;
 }
 p1{
-    font-size:5px;
+    font-size:15px;
 }
 
 .contact-submit{
@@ -73,3 +72,4 @@ background-color: rgb(189, 8, 28);
 color: rgb(255, 255, 255);
 width: 100%;
 }
+
